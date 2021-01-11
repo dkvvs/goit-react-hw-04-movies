@@ -1,0 +1,15 @@
+.link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.activeLink {
+  composes: link;
+  color: #e23737;
+}
